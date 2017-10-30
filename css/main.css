@@ -1,0 +1,160 @@
+/***reset***/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /* vertical-align: baseline; */
+    background: transparent;
+}
+/*******************/
+body {
+    background: #ffffff;
+    font-size: 12px;
+    font-family: Verdana,Arial,sans-serif, Tahoma;
+    color: #333;
+    -webkit-text-size-adjust: none;
+}
+
+#product-list {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 95%;
+    max-width: 800px;
+    margin-top: 10px;
+    border: 1px solid #d5d5d5;
+    margin: 0 auto;
+}
+
+
+/********************* Estilos para poner las estrellas de valoración**********************/
+.starts span {
+    display: block;
+    width: 0;
+    height: 12px;
+    background-position: 0 0;
+    text-indent: -9999px;
+}
+.starts, .starts span, .starts i {
+    background: url(./images/star.png) no-repeat;
+}
+.starts {
+    display: inline-block;
+    width: 55px;
+    height: 12px;
+    overflow: hidden;
+    margin: 1px 0 0;
+    background-position: 0 -22px;
+    text-align: left;
+    vertical-align: text-top;
+}
+/********************************************************************************************/
+
+
+
+
+
+
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    .fl {
+    
+    }
+    #product-list .sort_btn {
+    
+    }
+    #product-list .product_bar {
+    
+    }
+    #product-list .product_bar_info {
+    
+    }
+    .fr {
+     
+    }
+    .pagination {
+    
+   }
+}
+
+@media all and (max-width: 480px) {
+    .fl {
+        
+    }
+    #product-list .sort_btn {
+        
+    }
+    #product-list .product_bar {
+        
+    }
+    #product-list .product_bar_info {
+        
+    }
+    .fr {
+        f 
+    }
+    .pagination {
+   }
+   #product-list .product {
+      
+    }
+    #product-list .product .pro_classes {
+        
+    }
+    #product-list .product .cover_img img{
+        
+    }
+    
+ }
+
+
+/* Portrait */
+@media screen and (orientation:portrait) { /* Portrait styles here */ }
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */ }
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+} 
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+}
