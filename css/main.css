@@ -89,12 +89,59 @@ body {
     /* margin-left: 5px; */
     margin: 6px 5px 0px;
 }
+.product_bar_info{
+    color: #A9A9A9;
+    font-weight: bold;   
+}
+.product_bar_info span{
+    color: rgb(238, 151, 47);
+}
+.pre,.next{
+    background: #fff;
+    padding: 5px;
+    border: solid 1px #d5d5d5;
+}
+.next{
+    color: grey;
+    text-decoration: none;
+}
 .currency_sign,.currency_price{
     color: color: rgb(238, 151, 47);
 }
 .retail_price{
     float: right;
     text-decoration: line-through;
+}
+
+.top_flag{
+    background: url(images/tags.png)no-repeat;
+    background-position: 0px -417px;
+    width: 63px;
+    height: 62px;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.product{
+    flex: 1 0 164px;
+    position: relative;
+}
+.product img{
+    positi
+    }
+
+.discount_off{
+    background:url(images/cut.png) no-repeat;
+    height: 54px;
+    width: 54px;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 /********************* Estilos para poner las estrellas de valoración**********************/
 .starts span {
