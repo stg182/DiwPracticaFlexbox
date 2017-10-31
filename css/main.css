@@ -105,12 +105,22 @@ body {
     color: grey;
     text-decoration: none;
 }
-.currency_sign,.currency_price{
-    color: color: rgb(238, 151, 47);
+.wholesale{
+    width: 90px;
 }
+.currency_sign,.currency_price{
+    color: rgb(238, 151, 47);
+}
+
 .retail_price{
     float: right;
     text-decoration: line-through;
+    color: #898585;
+}
+
+.retail_price .currency_sign,.retail_price .currency_price{
+    color: inherit;
+
 }
 
 .top_flag{
@@ -126,22 +136,21 @@ body {
 .product{
     flex: 1 0 164px;
     position: relative;
+    margin: 10px 10px 0px;
 }
-.product img{
-    positi
-    }
 
 .discount_off{
     background:url(images/cut.png) no-repeat;
     height: 54px;
     width: 54px;
     color: #fff;
-    font-weight: 900;
+    font-size: 18px;
     text-align: center;
     padding-top: 12px;
     position: absolute;
     top: 0;
     right: 0;
+    font-family: impact;
 }
 /********************* Estilos para poner las estrellas de valoración**********************/
 .starts span {
