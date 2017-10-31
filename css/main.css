@@ -42,7 +42,7 @@ body {
     float: right;
     line-height: 23px;
     height: 23px;
-    margin-top: 5px;
+    margin-top: 1px;
 }
 
 .fl{
@@ -51,6 +51,11 @@ body {
     height: 23px;
     margin-top: 5px;
 }
+.pagination{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
 .sort_btn{
     float: left;
     background: #fff;
