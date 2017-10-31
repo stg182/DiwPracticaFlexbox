@@ -106,9 +106,15 @@ body {
     padding: 5px;
     border: solid 1px #d5d5d5;
 }
+.pre{
+    color: #d5d5d5;
+}
 .next{
     color: grey;
     text-decoration: none;
+}
+.sold_out_class{
+    text-align: center;
 }
 .wholesale{
     width: 90px;
@@ -127,7 +133,14 @@ body {
     color: inherit;
 
 }
-
+.title,.pro_classes,.review{
+    letter-spacing: 1px;
+    /* color: #898585; */
+}
+.title a,.pro_classes a,.review a,.stars{
+    color: #898585;
+    text-decoration: none;
+}
 .top_flag{
     background: url(images/tags.png)no-repeat;
     background-position: 0px -417px;
