@@ -121,6 +121,7 @@ body {
 }
 .currency_sign,.currency_price{
     color: rgb(238, 151, 47);
+    /* font-weight: bold; */
 }
 
 .retail_price{
@@ -133,7 +134,14 @@ body {
     color: inherit;
 
 }
-.title,.pro_classes,.review{
+.title{
+    height: 50px;
+}
+.pro_classes{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.pro_classes,.review{
     letter-spacing: 1px;
     /* color: #898585; */
 }
@@ -148,7 +156,7 @@ body {
     height: 62px;
     z-index: 3;
     position: absolute;
-    top: 0;
+    top: -2px;
     right: 0;
 }
 .product{
@@ -167,12 +175,12 @@ body {
     padding-top: 12px;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 15px;
     font-family: impact;
 }
 /********************* Estilos para poner las estrellas de valoración**********************/
 .starts span {
-    display: block;
+    display:block;
     width: 0;
     height: 12px;
     background-position: 0 0;
@@ -191,6 +199,24 @@ body {
     text-align: left;
     vertical-align: text-top;
 }
+/* .starts .starts-0{
+    width: 0%;
+}
+.starts .starts-20{
+    width: 20%;
+}
+.starts .starts-40{
+    width: 40%;
+}
+.starts .starts-60{
+    width: 60%;
+}
+.starts .starts-80{
+    width: 80%;
+}
+.starts .starts-100{
+    width: 100%;
+} */
 /********************************************************************************************/
 
 
