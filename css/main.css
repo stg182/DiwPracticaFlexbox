@@ -61,7 +61,7 @@ body {
     background: #fff;
     border:solid 1px #d5d5d5;
     margin-right: 5px;
-    padding-left: 5px;
+    padding-left: 10px;
     color: #A9A9A9;
 }
 
@@ -80,7 +80,7 @@ body {
     float: right;
     /* margin-left: 5px;
     margin-right: 5px; */
-    margin: 6px 5px 0px;
+    margin: 6px 10px 0px;
 }
 
 #product-list .sort_btn i {
@@ -92,7 +92,7 @@ body {
     /* margin-top: 6px; */
     float: right;
     /* margin-left: 5px; */
-    margin: 6px 5px 0px;
+    margin: 6px 10px 0px;
 }
 .product_bar_info{
     color: #A9A9A9;
@@ -246,8 +246,9 @@ body {
         flex-direction: column;
     }
     #product-list .sort_btn {
-        width: 100%;
-        margin: 0 5px 0;
+        width: 96%;
+        margin:0;
+       /*  margin: 0 0 5px 0; */
         /* margin: 5px 5px 0px; */
     }
     #product-list .product_bar {
@@ -255,17 +256,21 @@ body {
         display: table;
     }
     #product-list .product_bar_info {
-    
+        
         float: left;
+        margin-right: 10px;
     }
     .fr {
      /* float: none; */
      /* text-align:center;*/
-     width: 100%;
+     width: 60%;
      height: auto;
     }
     .pagination {
     
+   }
+   .cover_img{
+        text-align: center;
    }
    .toll_free_shipping{
         text-align: center;
@@ -283,6 +288,15 @@ body {
     top: 25px;
     right: 30px;
    }
+   .wholesale{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 10px;
+   }
+   .retail_price{
+        margin-left: 10px;
+   }
 }
 
 @media all and (max-width: 480px) {
@@ -294,7 +308,7 @@ body {
         flex-direction: column;
     }
     #product-list .sort_btn {
-        width: 100%;
+        width: 90%;
         margin: 0 5px 0;
     }
     #product-list .product_bar {
@@ -303,12 +317,13 @@ body {
     }
     #product-list .product_bar_info {
         float: left;
+        margin-right: 10px;
     }
     .fr {
         /* float: none;
         text-align:center;  */
         height: auto;
-        width: 100%;
+        width: 60%;
     }
     .pagination {
 
@@ -340,6 +355,19 @@ body {
    }
    .pro_classes{
         order: -1;
+   }
+   .sold_out_class {
+        text-align: left;
+    }
+    .wholesale{
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+   }
+   .retail_price{
+        margin-left: 10px;
    }
  }
 
