@@ -241,6 +241,10 @@ body {
         float: none;
 
     }
+    .product{
+        display: flex;
+        flex-direction: column;
+    }
     #product-list .sort_btn {
         width: 100%;
         margin: 0 5px 0;
@@ -269,11 +273,25 @@ body {
    .review{
         text-align: center;
    }
+   .top_flag{
+        top: 24px;
+   }
+   .pro_classes{
+        order: -1;
+   }
+   .discount_off{
+    top: 25px;
+    right: 30px;
+   }
 }
 
 @media all and (max-width: 480px) {
     .fl {
          float: none;
+    }
+     .product{
+        display: flex;
+        flex-direction: column;
     }
     #product-list .sort_btn {
         width: 100%;
@@ -312,6 +330,16 @@ body {
    }
    .review{
         text-align: center;
+   }
+   .top_flag{
+        top: 24px;
+   }
+   .discount_off{
+        top: 25px;
+        right: 30px;
+   }
+   .pro_classes{
+        order: -1;
    }
  }
 
