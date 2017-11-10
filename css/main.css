@@ -216,7 +216,12 @@ body {
 --------------------------------------------*/
 @media all and (min-width: 1024px) and (max-width: 1280px) { }
 
-@media all and (min-width: 768px) and (max-width: 1024px) { }
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .cover_img{
+        text-align: center;
+   }
+    
+}
 
 @media all and (min-width: 480px) and (max-width: 768px) { 
     .fl {
@@ -246,6 +251,7 @@ body {
     .fr {
      width: 60%;
      height: auto;
+     margin-bottom: 2px;
     }
     .pagination {
     
@@ -304,6 +310,7 @@ body {
     .fr {
         height: auto;
         width: 60%;
+        margin-bottom: 2px;
     }
     .pagination {
 
